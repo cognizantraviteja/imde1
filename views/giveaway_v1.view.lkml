@@ -65,9 +65,4 @@ view: giveaway_v1 {
     drill_fields: []
   }
 
-  measure: divide {
-    type: number
-    sql:  sum (${TABLE}.TargetWt,${TABLE}.TargetWt) ;;
-  }
-
 }
