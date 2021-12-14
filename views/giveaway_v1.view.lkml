@@ -64,4 +64,10 @@ view: giveaway_v1 {
     type: count
     drill_fields: []
   }
+
+  measure: divide {
+    type: number
+    sql:  ${TABLE}.TargetWt - ${TABLE}.TargetWt / ${TABLE}.TargetWt ;;
+  }
+
 }
