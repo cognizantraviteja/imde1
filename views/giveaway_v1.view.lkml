@@ -65,9 +65,4 @@ view: giveaway_v1 {
     drill_fields: []
   }
 
-
-  measure: countt {
-    type:  number
-    sql: ${TABLE}.Product ;;
-  }
 }
